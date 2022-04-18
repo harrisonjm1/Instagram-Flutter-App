@@ -23,8 +23,11 @@ class _FeedScreenState extends State<FeedScreen> {
           ? null
           : AppBar(
               backgroundColor: mobileBackgroundColor,
-              centerTitle: false,
-              title: Image.asset('assets/images/instagram.png'),
+              centerTitle: true,
+              title: Image.asset('assets/images/instagram.png',
+                  color: Color.fromARGB(255, 255, 255, 255),
+                  height: 200,
+                  width: 200),
               actions: [
                 IconButton(
                   icon: const Icon(

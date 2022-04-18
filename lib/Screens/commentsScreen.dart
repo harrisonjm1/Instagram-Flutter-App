@@ -1,15 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
+import 'package:flutter_instagram_app/models/user.dart';
 import 'package:flutter_instagram_app/provider/user_provider.dart';
 import 'package:flutter_instagram_app/Methods/firestore_methods.dart';
-import 'package:flutter_instagram_app/utilities/colors.dart';
+import 'package:flutter_instagram_app/Utilities/colors.dart';
 import 'package:flutter_instagram_app/Utilities/imagePickerUtil.dart';
+import 'package:flutter_instagram_app/CustomWidgets/comment_card.dart';
 import 'package:provider/provider.dart';
-
-import '../CustomWidgets/comment_card.dart';
-import '../Models/user.dart';
 
 class CommentsScreen extends StatefulWidget {
   final postId;

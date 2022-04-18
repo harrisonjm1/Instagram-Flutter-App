@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:flutter_instagram_app/provider/user_provider.dart';
 import 'package:flutter_instagram_app/Methods/firestore_methods.dart';
-import 'package:flutter_instagram_app/utilities/colors.dart';
+import 'package:flutter_instagram_app/Utilities/colors.dart';
 import 'package:flutter_instagram_app/Utilities/imagePickerUtil.dart';
 import 'package:provider/provider.dart';
 

@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_instagram_app/Utilities/colors.dart';
 import 'package:flutter_instagram_app/Utilities/screen_size.dart';
 import 'package:flutter_instagram_app/provider/user_provider.dart';
 import 'package:provider/provider.dart';
+
+import '../Models/user.dart';
 
 class AdjustLayout extends StatefulWidget {
   final Widget mobileDisplay;
